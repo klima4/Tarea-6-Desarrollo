@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Tarea #6</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="container" id="contenedor">
+        <div id="contenedor_1">
+
+        </div>
+        <br>
+        <div id="contenedor_2"></div>
+
+        <div class="contenido ">
+            <form id="numeros" action="#">
+                <div class="form-group">
+                    <label for="numero">Numero:</label>
+                    <input type="text" autocomplete="off" class="form-control" id="numero" placeholder="Agrega un numero..">
+                </div>
+
+                <a href="#" type="submit" class="btn btn-primary" onclick="operar()">Calcular</a>
+            </form>
+
+            <div class="col">
+                <div class="contenido secundario">
+
+                    <h2 class="text-center">Tabla de Multiplicar</h2>
+                    <div id="multiplicar">
+                        <ul class="list-group"></ul>
+                    </div>
+                    <br>
+                    <h2 class="text-center">Tabla de Dividir</h2>
+                    <div id="dividir">
+                        <ul class="list-group"></ul>
+                    </div>
+                    <br>
+                    <h2 class="text-center">Tabla de sumar</h2>
+                    <div id="sumar">
+                        <ul class="list-group"></ul>
+                    </div>
+                    <br>
+                    <h2 class="text-center">Tabla de Restar</h2>
+                    <div id="restar">
+                        <ul class="list-group"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/javascript.js"></script>
+
+</body>
+
+</html>
